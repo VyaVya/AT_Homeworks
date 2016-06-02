@@ -9,6 +9,8 @@ public class SumAndAverage {
             i++;
             sumOfNumbers = sumOfNumbers + i;
         } while (i <= 100);
+
+        //avarage TO DO
         System.out.println(sumOfNumbers);
     }
 }
