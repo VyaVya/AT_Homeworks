@@ -4,7 +4,7 @@ public class SumAndAverage {
         int sumOfNumbers = 0;
         int[] arrayOf100Items = new int[100];
         for (int i = 0; i < 100; i++) {
-            arrayOf100Items[i] = i;
+            arrayOf100Items[i] = i + 1;
         }
         for (int i = 0; i < arrayOf100Items.length; i++) {
             sumOfNumbers = sumOfNumbers + arrayOf100Items[i];
