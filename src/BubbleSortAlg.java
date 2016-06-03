@@ -15,7 +15,7 @@ public class BubbleSortAlg {
             for (c = 0; c < 10; c++)
                 array[c] = in.nextInt();
 
-            for (c = 0; c < ( 10 - 1 ); c++) {
+            for (c = 0; c < array.length - 1; c++) {
                 for (d = 0; d < 10 - c - 1; d++) {
                     if (array[d] > array[d+1]) /* For descending order use < */
                     {

@@ -29,7 +29,7 @@ public class PrintNumberWord {
                 break;
             case 9: System.out.println(simpleNumbers[8]);
                 break;
-            default: System.out.println(simpleNumbers[2]);
+            default: System.out.println(simpleNumbers[9]);
                 break;
         }
         /*if (number == 1){
