@@ -8,8 +8,9 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         BinarySearch search = new BinarySearch();
-        search.bubbleSort(new int[]{1, 5, 6, 3, 4, 2, 7, 9, 8, 0});
-        System.out.println(search);
+        int[] array = {1, 5, 6, 3, 4, 2, 7, 9, 8, 0};
+        search.bubbleSort(array);
+        System.out.println(array);
 
     }
 
